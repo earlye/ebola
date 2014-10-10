@@ -16,4 +16,17 @@ The main piece is ebola.json, which is a JSON array of entities following this p
     }
 ```
 
+Recognized Statuses include:
+
+```
+"deceased"
+"deceased-suspected"
+"positive"
+"negative"
+"cleared"
+"ruled-out"
+"presumed-negative"
+"quarantined"
+```
+
 Dates are for the date of the oldest link referencing the case.
