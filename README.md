@@ -11,7 +11,7 @@ The main piece is ebola.json, which is a JSON array of entities following this p
           { "status" : "STATUS" , "count" : 42 },
           { "status" : "other-status" , "count" : 32 }
       ],
-      "links" : [ "Some-URL" },
+      "links" : [ "Some-URL" , "Some-Other-URL" ],
       "date" : "Date, in ISO format: YYYY-MM-DD"
     }
 ```
