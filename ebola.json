@@ -1,0 +1,425 @@
+[
+    {
+      "location" : "Harare, Zimbabwe",
+      "patients" : [ { "status" : "quarantined" } ],
+      "links" : [ "http://www.news24.com/Africa/Zimbabwe/Zimbabwe-hospital-closed-to-monitor-suspected-Ebola-case-20141009-6"],
+      "date" : "2014-10-10"
+    },
+
+    { 
+      "location" : "Skopje, Macedonia",
+      "patients" : [ { "status" : "deceased-suspected" } , { "status" : "quarantined" , "count" : 3 } ],
+      "links" : [ "http://news.yahoo.com/briton-reported-dead-macedonia-suspected-ebola-170220780.html" , "http://www.dailymail.co.uk/news/article-2786874/Breaking-news-British-man-dies-suspected-Ebola-Macedonia-UK-victim-virus-killed-thousands.html" ],
+      "date" : "2014-10-09",
+      "notes" : "The deceased was a Briton, who was staying with another Briton in a hotel. The other Briton and the ambulance crew have been put into isolation." 
+    },
+
+    {
+      "location" : "Dallas, TX",
+      "patients" : [ { "status" : "negative" } ],
+      "links" : [ "http://www.dailymail.co.uk/news/article-2785514/Second-person-rushed-hospital-Ebola-symptoms-contact-patient-zero-Thomas-Duncan.html?ito=social-twitter_dailymailus",
+                  "http://www.wfaa.com/story/news/health/2014/10/09/ebola-test-results-negative-dallas-county-deputy/16984093/" ],
+      
+      "date" : "2014-10-08",
+      "notes" : "The first person to have shown symptoms of Ebola after contact with Duncan; thankfully, negative."
+    },
+
+    {
+        "location" : "Miami, FL",
+        "patients" : [ { "status" : "negative" } ],
+        "links" : [
+            "http://www.dailymail.co.uk/news/article-2782303/Teenager-Ebola-like-symptoms-quarantined-Miami-getting-sick-following-trip-West-Africa.html",
+            "http://www.nbcmiami.com/news/local/Sick-Child-From-West-Africa-Likely-Does-Not-Have-Ebola-278176891.html"
+        ],
+        "date" : "2014-10-06",
+        "notes" : "Teenager on 'holiday' from West Africa. Initial tests were negative, but samples sent to CDC for a double-check."
+    },
+
+    {
+        "location" : "Madrid, Spain",
+        "patients" :
+        [
+            { "status" : "negative" , "count" : 2 },
+            { "status" : "positive" , "count" : 1 },
+            { "status" : "quarantined" , "count" : 2 }
+        ],
+        "links" : [
+            "http://news.yahoo.com/first-outside-africa-nurse-spain-hospital-contracts-ebola-174043185.html",
+            "http://www.miamiherald.com/living/health-fitness/article2543388.html",
+            "http://www.rte.ie/news/2014/1007/650568-ebola/",
+            "http://www.nbcnews.com/storyline/ebola-virus-outbreak/dog-belonging-spanish-nurse-ebola-euthanized-n221026",
+            "http://www.dailymail.co.uk/news/article-2784626/I-followed-protocols-got-Ebola-Spanish-nurse-police-guard-contracted-killer-disease-says-no-idea-got-it.html",
+            "http://www.cnn.com/2014/10/08/world/europe/ebola-spain/index.html"
+        ],
+        "date" : "2014-10-06",
+        "notes" : "Nurse caught it from Manuel Garcia Viejo, who had been transferred to Madrid for better treatment, but who died 2014-09-26, highlighting, IMHO, the need for healthcare workers to exercise extreme caution when working with Ebola victims. Spanish health officials announced they've euthanized her dog.<br>\"Teresa Romero Ramos sought out help three times. Finally, one week after first seeing a doctor, Romero found out why she felt so sick: She had Ebola.\" Looks like hospitals in Spain are dropping the ball just as much as the guys in Dallas did, if not <i>worse</i>."
+    },
+
+    {
+        "location" : "KANSAS CITY, MO",
+        "patients" : [ { "status" : "negative" } ],
+        "links" : [
+            "http://www.kctv5.com/story/26707306/kansas-city-apartment-sealed-off-after-resident-quarantined"
+        ],
+        "date" : "2014-10-05",
+        "notes" : "\"Chris Hernandez, a spokesperson for the city of Kansas City, said they wanted to take an abundance of caution to avoid a Dallas situation and Sunday he's been told that it's considered 'extremely unlikely' to be Ebola.\" \"Hamele said Sunday that the patient has been responding well to treatment that day and was upgraded to good condition.\""
+    },
+
+
+
+    {
+        "location" : "Cobb County, GA",
+
+        "patients" : [ { "status" : "negative" } ],
+        "links" : [
+            "http://atlanta.cbslocal.com/2014/10/03/report-inmate-at-cobb-county-jail-being-tested-for-ebola/",
+            "http://www.11alive.com/story/news/local/marietta/2014/10/03/cobb-county-ebola-patient/16654681/"
+        ],
+        "date" : "2014-10-03",
+        "notes" : "Patient tested negative.",
+    },
+
+
+    {
+        "location" : "Washington, DC",
+        "patients" : [ { "status" : "ruled-out", "count" : 2 } ],
+        "links" : [
+            "http://www.cbsnews.com/news/ebola-outbreak-patient-hospitalized-in-d-c-with-possible-ebola-symptoms/",
+            "http://www.washingtonpost.com/news/to-your-health/wp/2014/10/03/d-c-hospital-evaluating-patient-who-has-ebola-like-symptoms/",
+            "http://www.cbsnews.com/news/ebola-virus-ruled-out-for-washington-d-c-patient-authorities-say/"
+        ],
+        "date" : "2014-10-03",
+        "notes" : "\"The deadly Ebola virus has been ruled out for a patient hospitalized in Washington, D.C., authorities announced Saturday.\" Why has there been a shift in terminology from \"tested negative\" to \"ruled out?\" Are they not testing some patients?"
+    },
+
+    {
+        "location" : "Fayette County, KY",
+        "patients" : [ { "status" : "negative" , "count" : 2 } ],
+        "links" : [
+            "http://www.lex18.com/news/two-patients-quarantined-in-kentucky-with-ebola-like-symptoms/",
+        ],
+        "date" : "2014-10-03",
+    },
+
+
+
+    {
+        "location" : "Salt Lake City, UT",
+
+        "patients" : [ { "status" : "negative" } ],
+        "links" : [
+            "http://fox13now.com/2014/10/02/health-officials-investigating-possible-case-of-ebola-at-utah-hospital/",
+            "http://www.sltrib.com/sltrib/news/58486102-78/patient-hospital-primary-ebola.html.csp"
+        ],
+        "date" : "2014-10-02",
+        "notes" : "the hospital sent a sample to the Centers for Disease Control and Prevention on Thursday, which tested negative for the virus, according to a Primary Children’s news release.",
+    },
+
+    {
+        "location" : "Honolulu, HI",
+        "patients" : [ { "status" : "ruled-out" } ],
+        "links" : [
+            "http://abcnews.go.com/Health/patient-isolation-hawaii-ebola-concerns/story?id=25909280",
+            "http://www.kitv.com/news/ebola-ruled-out-for-honolulu-patient-in-isolation/28373812"
+        ],
+        "date" : "2014-10-02",
+        "notes" : "\"After investigation by the health department, it was determined that the individual did not meet the clinical or travel exposure criteria for an Ebola infection.\" This is a lot less comforting than the Salt Lake case."
+    },
+
+
+    {
+        "location" : "Dallas, TX",
+        "patients" : [ { "status" : "deceased" } ],
+        "links" : [
+            "http://www.wfaa.com/story/news/health/2014/09/29/dallas-presbyterian-hospital-ebola-patient-isolation/16460629/",
+            "http://www.chron.com/news/texas/article/Dallas-hospital-monitoring-patient-for-Ebola-5789469.php",
+            "http://www.cnbc.com/id/102037055",
+            "http://burlyearly.blogspot.com/2014/10/ebola-in-dallas.html"
+        ],
+        "date" : "2014-09-29",
+        "notes" : "Link #4 is my page to aggregate further information."
+    },
+
+    {
+        "location" : "Chennai, India",
+        "patients" : [ { "status" : "negative" } ],
+        "links" : [
+            "http://timesofindia.indiatimes.com/City/Chennai/Man-back-from-Nigeria-being-tested-for-Ebola/articleshow/43280129.cms",
+            "http://timesofindia.indiatimes.com/City/Chennai/Ebola-test-on-man-negative/articleshow/43362378.cms"
+        ],
+        "date" : "2014-09-23",
+        "notes": "Patient name is \"Balamurugan\"."
+    },
+
+    {
+        "location" : "Kintampo, Ghana",
+        "patients" : [ { "status" : "deceased-suspected" } ],
+        "links" : [
+            "http://vibeghana.com/2014/09/23/suspected-ebola-man-dies-at-kintampo/",
+            "http://www.spyghana.com/medical-team-dressed-in-ebola-apparel-conveying-the-body/"
+        ],
+        "date" : "2014-09-23",
+        "notes" : " \"The man, who was on board a Kumasi-Bolga bound mini bus with registration number GT 9982 E, allegedly complained of some ailment and started having running stomach and vomiting blood when the vehicle got to Kintampo Sunday morning. He died some few minutes later.\" \"According to Mr Adams, the cause of death could be mercury poison. Mr Adams indicated that a similar incident happened recently at the Goaso area where a Galamseyer died vomiting blood as a result of mercury poison.\" "
+    },
+
+    {
+        "location" : "Oda, Ghana",
+
+        "patients" : [ { "status" : "negative" } ],
+        "links" : [
+            "http://vibeghana.com/2014/09/23/oda-hospital-records-one-suspected-ebola-case/"
+        ],
+        "date" : "2014-09-23",
+    },
+
+    {
+        "location" : "Laussanne, Switzerland",
+
+        "patients" : [ { "status" : "negative" } ],
+        "links" : [
+            "http://www.swissinfo.ch/eng/suspected-ebola-case-in-lausanne/40796430"
+        ],
+        "date" : "2014-09-17",
+        "notes" : "Patient is from Guinnea, travelled to Switzerland by way of France, quarantined after he told officials a family member had died of Ebola. The article was updated not two hours after I linked it to move the \"suspected cases\" section to the bottom and list the patient as negative.  Good News!",
+    },
+
+    {
+        "location" : "Kitwe, Zambia",
+        "patients" : [ { "status" : "negative" , "count" : 8} ],
+        "links" : [
+            "http://www.lusakatimes.com/2014/09/24/kitwe-ebola-case-negative/"
+        ],
+        "date" : "2014-09-24",
+    },
+
+    {
+        "location" : "Perth, Australia",
+        "patients" : [ { "status" : "negative" , "count" : 2 } ],
+        "links" : [
+            "http://www.3news.co.nz/world/second-suspected-ebola-case-in-perth-2014092311",
+            "http://www.3news.co.nz/world/suspected-perth-ebola-patient-cleared-2014092411"
+        ],
+        "date" : "2014-09-23",
+    },
+
+    {
+        "location" : "Canberra, Australia",
+
+        "patients" : [ { "status" : "negative" } ],
+        "links" : [
+            "http://zeenews.india.com/news/health/health-news/suspected-ebola-case-tested-negative-in-australia_1468626.htmla"
+        ],
+        "date" : "2014-09-12",
+    },
+
+    {
+        "location" : "Civitanova Marche, Italy",
+        
+        "patients" : [ { "status" : "negative" } ],
+        "links" : [
+            "http://indianexpress.com/article/world/world-others/suspected-first-case-of-ebola-in-italy/",
+            "http://www.standardmedia.co.ke/article/2000134478/italy-tests-suspected-ebola-case/",
+            "http://www.thehealthsite.com/news/latest-ebola-news-suspected-ebola-case-reported-in-italy/",
+            "http://www.wired.it/scienza/medicina/2014/09/10/lebola-non-arrivato-in-italia/"
+        ],
+        "date" : "2014-09-09",
+        "notes": "I'm reasonably sure these are all the same case, even though one report claims she's 42 and another 40.",
+    },
+
+    {
+        "location" : "Padua,Italy",
+        "patients" : [ { "status" : "negative" , "count" : 3  } ],
+        "links" : [
+            "http://www.thelocal.it/20140903/ebola-two-people-quarantined-in-padua",
+            "http://www.ilgazzettino.it/NORDEST/PADOVA/casi_sospetti_virus_ebola_padova/notizie/876729.shtml"
+        ],
+        "date" : "2014-09-03",
+    },
+
+    {
+        "location" : "West Bengal, India",
+
+        "patients" : [ { "status" : "negative" } ],
+        "links" : [
+            "http://www.thehealthsite.com/news/ebola-in-india-first-suspected-ebola-case-in-west-bengal/",
+            "http://timesofindia.indiatimes.com/city/kolkata/Ebola-scare-drives-Raiganj-Polytechnic-students-out-of-hostel/articleshow/41546339.cms",
+            "http://echoofindia.com/raiganj-alip-das-not-infected-ebola-says-test-report-66765"
+        ],
+        "date" : "2014-09-02",
+        "notes" : " The patient's name is Alip Das. He is among the 6 quarantined in Delhi on 09/01. Unclear why he was transported from Delhi to West Bengal if he was quarantined. According to link 2, he tested positive for malaria, but the ebola test had not come back at that time. ",
+    },
+
+    {
+        "location" : "Delhi, India",
+        "patients" : [ { "status" : "presumed-negative" , "count" : 5} ],
+        "links" : [
+            "http://www.thehealthsite.com/news/ebola-in-india-has-the-virus-come-to-delhi/"
+        ],
+        "date" : "2014-09-01",
+        "notes" : "Patients were quarantined beginning of September.  Couldn't find reports as to test results.",
+    },
+
+
+    {
+        "location" : "Senegal, Africa",
+        "patients" : [ { "status" : "positive" } ],
+        "links" : [
+            "http://www.foxnews.com/health/2014/09/01/who-says-senegal-ebola-case-top-priority-emergency/",
+            "http://www.ghanaweb.com/GhanaHomePage/NewsArchive/artikel.php?ID=325749",
+            "http://outbreaknewstoday.com/senegal-ebola-patient-recovers-from-lethal-disease-29025/"
+        ],
+        "date" : "2014-08-23",
+        "notes" : "Student arrived Dakar 8/20, showed symptoms 8/23, treated for malaria. 8/26 came back to hospital, where it turned out he had ebola. This is the first uncontrolled case of ebola outside the hot zone of Guinea, Liberia, Sierra Leone, and Nigeria, which is likely to have originated inside the hot zone. As of 2014-09-14, appears to be contained."
+    },
+
+    {
+        "location" : "DR Congo",
+        "patients_nostats" : [ { "status" : "deceased" , "count" : 40 },
+                       { "status" : "positive" , "count" : 31 } ],
+        "links" : [
+            "http://www.itv.com/news/update/2014-08-27/death-toll-in-congo-ebola-outbreak-reaches-13/",
+            "http://www.france24.com/en/20140824-dr-congo-confirms-first-cases-ebola/",
+            "http://www.itv.com/news/update/2014-08-28/pregnant-woman-who-butchered-animal-first-ebola-case/",
+            "http://www.nytimes.com/2014/09/12/world/africa/ebola-cases-double-in-democratic-republic-of-congo.html?_r=0",
+            "http://www.thehealthsite.com/news/democratic-republic-of-congo-manages-to-control-ebola-outbreak/" ],
+        "date" : "2014-08-24",
+        "notes" : " Appears to be a second, unrelated outbreak, according to DRC Health Minister Felix Kabange Numbi. According to link 5, as of 9/22/2014, it had been 10 days since any new cases were discovered."
+    },
+
+    {
+        "location" : "Stockholm, Sweden",
+        "patients" : [ { "status" : "negative" } ],
+        "links" : [
+            "http://online.wsj.com/articles/stockholm-ebola-suspect-not-carrying-virus-1409571126",
+            "http://online.wsj.com/articles/swedish-man-hospitalized-with-suspected-case-of-ebola-1409519411"
+        ],
+        "date" : "2014-08-31",
+    },
+
+    {
+        "location" : "Delhi, India",
+        "patients" : [ { "status" : "presumed-negative" , "count" : 6 } ],
+        "links" : [
+            "http://timesofindia.indiatimes.com/city/delhi/Ebola-scare-116-people-arrive-from-worst-affected-Liberia-in-Delhi-and-Mumbai/articleshow/40960259.cms",
+            "http://timesofindia.indiatimes.com/city/delhi/6-detained-at-Delhi-airport-as-Ebola-vigil-is-raised/articleshow/40960092.cms"
+        ],
+        "date" : "2014-08-26",
+        "notes" : "2014-09-24: Couldn't find reports as to test results.",
+    },
+
+    {
+        "location" : "Delhi, India",
+        
+        "patients" : [ { "status" : "presumed-negative" } ],
+        "links" : [
+            "http://timesofindia.indiatimes.com/city/delhi/Ebola-scare-116-people-arrive-from-worst-affected-Liberia-in-Delhi-and-Mumbai/articleshow/40960259.cms"
+        ],
+        "date" : "2014-08-27",
+        "notes" : "This may be one of the 6 other Delhi, India cases. The article wasn't very clear about that point. 2014-09-24: Couldn't find reports as to test results."
+    },
+
+    {
+        "location" : "Albania",
+        "patients" : [ { "status" : "presumed-negative" , "count" : 5 } ],
+        "links" : [
+            "http://www.breitbart.com/Big-Peace/2014/08/14/Five-Suspected-Ebola-Victims-Found-in-Albania"
+        ],
+        "date" : "2014-08-15",
+    },
+
+    {
+        "location" : "Abu Dhabi, United Arab Emarates",
+        "patients" : [ { "status" : "negative" } ],
+        "links" : [
+            "http://www.washingtonpost.com/world/middle_east/nigerian-woman-suspected-of-ebola-dies-in-uae/2014/08/18/4bae4960-26a5-11e4-8b10-7db129976abb_story.html",
+            "http://www.chicagotribune.com/sns-rt-us-health-ebola-emirates-20140822-story.html"
+        ],
+        "date" : "2014-08-18",
+    },
+
+    {
+        "location" : "Various, US",
+        "patients" : [ { "status" : "negative" , "count" : 6 } ],
+        "links" : [
+            "http://nypost.com/2014/08/05/6-people-tested-for-ebola-in-nyc/"
+        ],
+        "date" : "2014-08-05",
+    },
+
+    {
+        "location" : "New York, New York",
+        "patients" : [ { "status" : "negative" } ],
+        "links" : [
+            "http://www.cnn.com/2014/08/04/health/ebola-us-patients/index.html"
+        ],
+        "date" : "2014-08-04"
+    },
+
+    {
+        "location" : "East Tennessee",
+        "patients" : [ { "status" : "presumed-negative" } ],
+        "links" : [
+            "http://www.tennessean.com/story/news/health/2014/08/04/east-tennessee-doctor-quarantines-work-ebola-patients/13600605/"
+        ],
+        "date" : "2014-08-04",
+        "notes" : "It seems reasonable to presume this doctor would test negative at this point. He reported that he was self-quarantining approx 8/5/2014, and there have been no reports of complications about him yet. With a 21-day incubation period, he should be either sick, or totally in the clear by 8/31. Presumably if he gets sick, it would be global news."
+    },
+
+    {
+        "location" : "Sacramento, CA",
+        "patients" : [ { "status" : "negative" } ],
+        "links" : [
+            "http://www.sacbee.com/2014/08/19/6640402/kaiser-south-sacramento-testing.html",
+            "http://www.huffingtonpost.com/2014/08/21/ebola-california_n_5698607.html"
+        ],
+        "date" : "2014-08-19",
+    },
+
+    {
+        "location" : "New Mexico",
+        "patients" : [ { "status" : "negative" } ],
+        "links" : [
+            "http://www.breitbart.com/Big-Peace/2014/08/20/New-Mexico-Woman-Being-Treated-for-Possible-Ebola-Exposure",
+            "http://www.lcsun-news.com/ci_26380378/new-mexico-woman-tests-negative-ebola"
+        ],
+        "date" : "2014-08-20",
+    },
+
+    {
+        "location" : "Serbia",
+        "patients" : [ { "status" : "presumed-negative" , "count" : 14 } ],
+        "links" : [
+            "http://inserbia.info/today/2014/08/serbia-14-people-under-supervision-due-to-ebola-concerns/"
+        ],
+        "date" : "2014-08-13",
+        "notes": "It's now been over a month since this was reported, and there do not appear to be any follow-up articles stating either way. Presuming no news is good news."
+    },
+
+    {
+        "location" : "Ohio",
+        "patients" : [ { "status" : "negative" } ],
+        "links" : [
+            "http://abcnews.go.com/Health/ebola-false-alarm-johns-hopkins/story?id=24814249",
+            "http://www.10tv.com/content/stories/2014/08/05/columbus-ohio-one-person-tested-for-the-deadly-ebola-virus-in-columbus.html"
+        ],
+        "date" : "2014-08-05",
+    },
+
+    {
+        "location" : "Turkey",
+        "patients" : [ { "status" : "negative" } ],
+        "links" : [
+            "http://en.trend.az/news/incident/2303082.html"
+        ],
+        "date" : "2014-08-15"
+    },
+
+    {
+        "location" : "Spain",
+        "patients" : [ { "status" : "presumed-negative" } ],
+        "links" : [
+            "http://www.mirror.co.uk/news/world-news/ebola-scare-spanish-coastal-resort-4066158"
+        ],
+        "date" : "2014-08-17",
+    }
+]
