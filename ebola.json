@@ -1,5 +1,28 @@
 [
     {
+      "location" : "Parana,Brazil",
+      "patients" : [ { "status" : "quarantined" } ],
+      "links" : [ "http://www.dailymail.co.uk/news/article-2788125/has-ebola-hit-new-continent-authorities-test-man-brazil-deadly-virus-woman-paris-suspected-infected.html" ],
+      "date" : "2014-10-10"
+    },
+
+    {
+      "location" : "Paris, France",
+      "patients" : [ { "status" : "quarantined" } ],
+      "links" : [ "http://www.independent.co.uk/news/world/europe/ebola-outbreak-paris-authorities-investigate-probable-case-9787026.html",
+                  "http://www.dailymail.co.uk/news/article-2788125/has-ebola-hit-new-continent-authorities-test-man-brazil-deadly-virus-woman-paris-suspected-infected.html" ],
+      "date" : "2014-10-10",
+      "notes" : "Doctors are expected to receive results from medical tests on a woman who may have contracted the virus and is currently being treated in hospital on Friday"
+    },
+
+    {
+      "location" : "Paris, France",
+      "patients" : [ { "status" : "negative" } ],
+      "links" : [ "http://www.thelocal.fr/20141009/ebola-paris-france" ],
+      "date" : "2014-10-09"
+    },
+
+    {
       "location" : "Harare, Zimbabwe",
       "patients" : [ { "status" : "quarantined" } ],
       "links" : [ "http://www.news24.com/Africa/Zimbabwe/Zimbabwe-hospital-closed-to-monitor-suspected-Ebola-case-20141009-6"],
