@@ -4,7 +4,7 @@
       "patients" : [ { "status" : "quarantined" } , { "status" : "negative" , "count" : 3 } ],
       "links" : [ "http://globalnews.ca/news/1609364/suspected-case-of-the-ebola-virus-in-abitibi-temiscamingue/" ],
       "date" : "2014-10-10",
-      "notest" : "From the article: There have been three other suspected cases of Ebola in Quebec, all of which tested negative."
+      "notes" : "From the article: There have been three other suspected cases of Ebola in Quebec, all of which tested negative."
     },
 
     {
