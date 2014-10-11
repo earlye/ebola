@@ -10,8 +10,10 @@
     {
       "location" : "Parana,Brazil",
       "patients" : [ { "status" : "quarantined" } ],
-      "links" : [ "http://www.dailymail.co.uk/news/article-2788125/has-ebola-hit-new-continent-authorities-test-man-brazil-deadly-virus-woman-paris-suspected-infected.html" ],
-      "date" : "2014-10-10"
+      "links" : [ "http://www.dailymail.co.uk/news/article-2788125/has-ebola-hit-new-continent-authorities-test-man-brazil-deadly-virus-woman-paris-suspected-infected.html",
+                  "http://www.bbc.com/news/world-latin-america-29576815" ],
+      "date" : "2014-10-10",
+      "notes" : "Patient's name: Souleymane Bah, from Guinea. \"Doctors say he no longer has a fever and blood test results are expected on Saturday.\""
     },
 
     {
