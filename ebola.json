@@ -1,5 +1,12 @@
 [
     {
+      "location" : "Abitibi-Témiscamingue, Quebec, Canada",
+      "patients" : [ { "status" : "quarantined" } ],
+      "links" : [ "http://globalnews.ca/news/1609364/suspected-case-of-the-ebola-virus-in-abitibi-temiscamingue/" ],
+      "date" : "2014-10-10"
+    },
+
+    {
       "location" : "Parana,Brazil",
       "patients" : [ { "status" : "quarantined" } ],
       "links" : [ "http://www.dailymail.co.uk/news/article-2788125/has-ebola-hit-new-continent-authorities-test-man-brazil-deadly-virus-woman-paris-suspected-infected.html" ],
