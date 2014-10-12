@@ -9,7 +9,7 @@
 
     {
       "location" : "Parana,Brazil",
-      "patients" : [ { "status" : "quarantined" } ],
+      "patients" : [ { "status" : "negative" } ],
       "links" : [ "http://www.dailymail.co.uk/news/article-2788125/has-ebola-hit-new-continent-authorities-test-man-brazil-deadly-virus-woman-paris-suspected-infected.html",
                   "http://www.bbc.com/news/world-latin-america-29576815" ],
       "date" : "2014-10-10",
@@ -18,7 +18,7 @@
 
     {
       "location" : "Paris, France",
-      "patients" : [ { "status" : "quarantined" } ],
+      "patients" : [ { "status" : "negative" } ],
       "links" : [ "http://www.independent.co.uk/news/world/europe/ebola-outbreak-paris-authorities-investigate-probable-case-9787026.html",
                   "http://www.dailymail.co.uk/news/article-2788125/has-ebola-hit-new-continent-authorities-test-man-brazil-deadly-virus-woman-paris-suspected-infected.html" ],
       "date" : "2014-10-10",
@@ -74,7 +74,7 @@
         [
             { "status" : "negative" , "count" : 2 },
             { "status" : "positive" , "count" : 1 },
-            { "status" : "quarantined" , "count" : 2 }
+            { "status" : "quarantined" , "count" : 13 }
         ],
         "links" : [
             "http://news.yahoo.com/first-outside-africa-nurse-spain-hospital-contracts-ebola-174043185.html",
@@ -82,10 +82,11 @@
             "http://www.rte.ie/news/2014/1007/650568-ebola/",
             "http://www.nbcnews.com/storyline/ebola-virus-outbreak/dog-belonging-spanish-nurse-ebola-euthanized-n221026",
             "http://www.dailymail.co.uk/news/article-2784626/I-followed-protocols-got-Ebola-Spanish-nurse-police-guard-contracted-killer-disease-says-no-idea-got-it.html",
-            "http://www.cnn.com/2014/10/08/world/europe/ebola-spain/index.html"
+            "http://www.cnn.com/2014/10/08/world/europe/ebola-spain/index.html",
+            "http://www.zerohedge.com/news/2014-10-10/ebola-pandemic-update-probable-cases-brazil-and-paris-7-more-isolated-spain-who-warn"
         ],
         "date" : "2014-10-06",
-        "notes" : "Nurse caught it from Manuel Garcia Viejo, who had been transferred to Madrid for better treatment, but who died 2014-09-26, highlighting, IMHO, the need for healthcare workers to exercise extreme caution when working with Ebola victims. Spanish health officials announced they've euthanized her dog.<br>\"Teresa Romero Ramos sought out help three times. Finally, one week after first seeing a doctor, Romero found out why she felt so sick: She had Ebola.\" Looks like hospitals in Spain are dropping the ball just as much as the guys in Dallas did, if not <i>worse</i>."
+        "notes" : "Nurse caught it from Manuel Garcia Viejo, who had been transferred to Madrid for better treatment, but who died 2014-09-26, highlighting, IMHO, the need for healthcare workers to exercise extreme caution when working with Ebola victims. Spanish health officials announced they've euthanized her dog.<br>\"Teresa Romero Ramos sought out help three times. Finally, one week after first seeing a doctor, Romero found out why she felt so sick: She had Ebola.\" Looks like hospitals in Spain are dropping the ball just as much as the guys in Dallas did, if not <i>worse</i>.<br>\"A hospital spokeswoman said there were now 14 people in the isolation unit on its sealed-off sixth floor, including Romero, her husband, and health workers who had cared for Romero since she was admitted on Monday.\""
     },
 
     {
