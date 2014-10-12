@@ -1,5 +1,14 @@
 [
     {
+      "location" : "Dallas, TX",
+      "patients" : [ { "status" : "positive" } ],
+      "links" : [ "http://www.nbcnews.com/storyline/ebola-virus-outbreak/heroic-health-worker-becomes-second-u-s-ebola-case-n223976" ],
+      "date" : "2014-10-12",
+      "notes" : "Duncan has claimed his first victim :-(. R0 in Dallas is now R1."
+    },
+
+
+    {
       "location" : "Abitibi-Témiscamingue, Quebec, Canada",
       "patients" : [ { "status" : "quarantined" } , { "status" : "negative" , "count" : 3 } ],
       "links" : [ "http://globalnews.ca/news/1609364/suspected-case-of-the-ebola-virus-in-abitibi-temiscamingue/" ],
