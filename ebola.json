@@ -1,69 +1,93 @@
 [
-    {
-      "location" : "Dallas, TX",
-      "patients" : [ { "status" : "positive" } ],
-      "links" : [ "http://www.nbcnews.com/storyline/ebola-virus-outbreak/heroic-health-worker-becomes-second-u-s-ebola-case-n223976" ],
-      "date" : "2014-10-12",
-      "notes" : "Duncan has claimed his first victim :-(. R0 in Dallas is now R1."
-    },
-
 
     {
-      "location" : "Abitibi-Témiscamingue, Quebec, Canada",
-      "patients" : [ { "status" : "quarantined" } , { "status" : "negative" , "count" : 3 } ],
-      "links" : [ "http://globalnews.ca/news/1609364/suspected-case-of-the-ebola-virus-in-abitibi-temiscamingue/" ],
-      "date" : "2014-10-10",
-      "notes" : "From the article: There have been three other suspected cases of Ebola in Quebec, all of which tested negative."
+        "location" : "Boston, MA",
+        "patients" : [ {"status" : "quarantined"} ],
+        "links" : [ "http://www.bostonherald.com/news_opinion/local_coverage/2014/10/suspected_ebola_case_being_tested_at_beth_israel_hospital" ],
+        "date" : "2014-10-12"
     },
 
     {
-      "location" : "Parana,Brazil",
-      "patients" : [ { "status" : "negative" } ],
-      "links" : [ "http://www.dailymail.co.uk/news/article-2788125/has-ebola-hit-new-continent-authorities-test-man-brazil-deadly-virus-woman-paris-suspected-infected.html",
-                  "http://www.bbc.com/news/world-latin-america-29576815" ],
-      "date" : "2014-10-10",
-      "notes" : "Patient's name: Souleymane Bah, from Guinea. \"Doctors say he no longer has a fever and blood test results are expected on Saturday.\""
+        "location" : "Jacksonville, FL",
+        "patients" : [ { "status" : "quarantined"} ],
+        "notes" : "In Jacksonville, Baptist Medical Center said Monday it had isolated a patient who was being tested for Ebola but added that the diagnosis is \"highly unlikely.\" The hospital released a statement saying the patient had no fever, a common symptom of Ebola, but did report recent casual contact with a traveler from West Africa.",
+        "date" : "2014-10-13",
+        "links" : [ "http://www.usatoday.com/story/news/nation/2014/10/13/ebola-nurse-who/17182599/" ]
     },
 
     {
-      "location" : "Paris, France",
-      "patients" : [ { "status" : "negative" } ],
-      "links" : [ "http://www.independent.co.uk/news/world/europe/ebola-outbreak-paris-authorities-investigate-probable-case-9787026.html",
-                  "http://www.dailymail.co.uk/news/article-2788125/has-ebola-hit-new-continent-authorities-test-man-brazil-deadly-virus-woman-paris-suspected-infected.html" ],
-      "date" : "2014-10-10",
-      "notes" : "Doctors are expected to receive results from medical tests on a woman who may have contracted the virus and is currently being treated in hospital on Friday"
+        "location" : "Dallas, TX",
+        "patients" : [ { "status" : "positive" } ],
+        "links" : [ "http://www.nbcnews.com/storyline/ebola-virus-outbreak/heroic-health-worker-becomes-second-u-s-ebola-case-n223976",
+                    "http://www.usatoday.com/story/news/nation/2014/10/13/ebola-nurse-who/17182599/" ],
+        "date" : "2014-10-12",
+        "notes" : "Duncan has claimed his first victim, Nina Pham. :-(. R0 in Dallas is now 0.5. I had been saying 1, but I think I had that math wrong. R0 is the number infected by each infected person. In this case, there are 2 infected people (Duncan and the health care worker), and only one infected another person, so that's 1/2 = 0.5."
     },
 
     {
-      "location" : "Paris, France",
-      "patients" : [ { "status" : "negative" } ],
-      "links" : [ "http://www.thelocal.fr/20141009/ebola-paris-france" ],
-      "date" : "2014-10-09"
+        "location" : "Las Vegas, NV",
+        "patients" : [ { "status" : "negative" } ],
+        "links" : [ "http://www.chicagotribune.com/lifestyles/health/chi-ebola-cases-20141010-story.html" ],
+        "date" : "2014-10-10"
+        
     },
 
     {
-      "location" : "Harare, Zimbabwe",
-      "patients" : [ { "status" : "quarantined" } ],
-      "links" : [ "http://www.news24.com/Africa/Zimbabwe/Zimbabwe-hospital-closed-to-monitor-suspected-Ebola-case-20141009-6"],
-      "date" : "2014-10-10"
-    },
-
-    { 
-      "location" : "Skopje, Macedonia",
-      "patients" : [ { "status" : "deceased-suspected" } , { "status" : "quarantined" , "count" : 3 } ],
-      "links" : [ "http://news.yahoo.com/briton-reported-dead-macedonia-suspected-ebola-170220780.html" , "http://www.dailymail.co.uk/news/article-2786874/Breaking-news-British-man-dies-suspected-Ebola-Macedonia-UK-victim-virus-killed-thousands.html" ],
-      "date" : "2014-10-09",
-      "notes" : "The deceased was a Briton, who was staying with another Briton in a hotel. The other Briton and the ambulance crew have been put into isolation." 
+        "location" : "Abitibi-Témiscamingue, Quebec, Canada",
+        "patients" : [ { "status" : "quarantined" } , { "status" : "negative" , "count" : 3 } ],
+        "links" : [ "http://globalnews.ca/news/1609364/suspected-case-of-the-ebola-virus-in-abitibi-temiscamingue/" ],
+        "date" : "2014-10-10",
+        "notes" : "From the article: There have been three other suspected cases of Ebola in Quebec, all of which tested negative."
     },
 
     {
-      "location" : "Dallas, TX",
-      "patients" : [ { "status" : "negative" } ],
-      "links" : [ "http://www.dailymail.co.uk/news/article-2785514/Second-person-rushed-hospital-Ebola-symptoms-contact-patient-zero-Thomas-Duncan.html?ito=social-twitter_dailymailus",
-                  "http://www.wfaa.com/story/news/health/2014/10/09/ebola-test-results-negative-dallas-county-deputy/16984093/" ],
-      
-      "date" : "2014-10-08",
-      "notes" : "The first person to have shown symptoms of Ebola after contact with Duncan; thankfully, negative."
+        "location" : "Parana,Brazil",
+        "patients" : [ { "status" : "negative" } ],
+        "links" : [ "http://www.dailymail.co.uk/news/article-2788125/has-ebola-hit-new-continent-authorities-test-man-brazil-deadly-virus-woman-paris-suspected-infected.html",
+                    "http://www.bbc.com/news/world-latin-america-29576815" ],
+        "date" : "2014-10-10",
+        "notes" : "Patient's name: Souleymane Bah, from Guinea. \"Doctors say he no longer has a fever and blood test results are expected on Saturday.\""
+    },
+
+    {
+        "location" : "Paris, France",
+        "patients" : [ { "status" : "negative" } ],
+        "links" : [ "http://www.independent.co.uk/news/world/europe/ebola-outbreak-paris-authorities-investigate-probable-case-9787026.html",
+                    "http://www.dailymail.co.uk/news/article-2788125/has-ebola-hit-new-continent-authorities-test-man-brazil-deadly-virus-woman-paris-suspected-infected.html" ],
+        "date" : "2014-10-10",
+        "notes" : "Doctors are expected to receive results from medical tests on a woman who may have contracted the virus and is currently being treated in hospital on Friday"
+    },
+
+    {
+        "location" : "Paris, France",
+        "patients" : [ { "status" : "negative" } ],
+        "links" : [ "http://www.thelocal.fr/20141009/ebola-paris-france" ],
+        "date" : "2014-10-09"
+    },
+
+    {
+        "location" : "Harare, Zimbabwe",
+        "patients" : [ { "status" : "quarantined" } ],
+        "links" : [ "http://www.news24.com/Africa/Zimbabwe/Zimbabwe-hospital-closed-to-monitor-suspected-Ebola-case-20141009-6"],
+        "date" : "2014-10-10"
+    },
+
+    {
+        "location" : "Skopje, Macedonia",
+        "patients" : [ { "status" : "deceased-negative" } , { "status" : "ruled-out" , "count" : 3 } ],
+        "links" : [ "http://news.yahoo.com/briton-reported-dead-macedonia-suspected-ebola-170220780.html" , "http://www.dailymail.co.uk/news/article-2786874/Breaking-news-British-man-dies-suspected-Ebola-Macedonia-UK-victim-virus-killed-thousands.html" ],
+        "date" : "2014-10-09",
+        "notes" : "The deceased was a Briton, who was staying with another Briton in a hotel. The other Briton and the ambulance crew have been put into isolation."
+    },
+
+    {
+        "location" : "Dallas, TX",
+        "patients" : [ { "status" : "negative" } ],
+        "links" : [ "http://www.dailymail.co.uk/news/article-2785514/Second-person-rushed-hospital-Ebola-symptoms-contact-patient-zero-Thomas-Duncan.html?ito=social-twitter_dailymailus",
+                    "http://www.wfaa.com/story/news/health/2014/10/09/ebola-test-results-negative-dallas-county-deputy/16984093/" ],
+
+        "date" : "2014-10-08",
+        "notes" : "The first person to have shown symptoms of Ebola after contact with Duncan; thankfully, negative."
     },
 
     {
@@ -92,10 +116,11 @@
             "http://www.nbcnews.com/storyline/ebola-virus-outbreak/dog-belonging-spanish-nurse-ebola-euthanized-n221026",
             "http://www.dailymail.co.uk/news/article-2784626/I-followed-protocols-got-Ebola-Spanish-nurse-police-guard-contracted-killer-disease-says-no-idea-got-it.html",
             "http://www.cnn.com/2014/10/08/world/europe/ebola-spain/index.html",
-            "http://www.zerohedge.com/news/2014-10-10/ebola-pandemic-update-probable-cases-brazil-and-paris-7-more-isolated-spain-who-warn"
+            "http://www.zerohedge.com/news/2014-10-10/ebola-pandemic-update-probable-cases-brazil-and-paris-7-more-isolated-spain-who-warn",
+            "http://www.theguardian.com/world/2014/oct/12/spanish-ebola-nurse-shows-signs-improvement"
         ],
         "date" : "2014-10-06",
-        "notes" : "Nurse caught it from Manuel Garcia Viejo, who had been transferred to Madrid for better treatment, but who died 2014-09-26, highlighting, IMHO, the need for healthcare workers to exercise extreme caution when working with Ebola victims. Spanish health officials announced they've euthanized her dog.<br>\"Teresa Romero Ramos sought out help three times. Finally, one week after first seeing a doctor, Romero found out why she felt so sick: She had Ebola.\" Looks like hospitals in Spain are dropping the ball just as much as the guys in Dallas did, if not <i>worse</i>.<br>\"A hospital spokeswoman said there were now 14 people in the isolation unit on its sealed-off sixth floor, including Romero, her husband, and health workers who had cared for Romero since she was admitted on Monday.\""
+        "notes" : "Nurse caught it from Manuel Garcia Viejo, who had been transferred to Madrid for better treatment, but who died 2014-09-26, highlighting, IMHO, the need for healthcare workers to exercise extreme caution when working with Ebola victims. Spanish health officials announced they've euthanized her dog.<br>\"Teresa Romero Ramos sought out help three times. Finally, one week after first seeing a doctor, Romero found out why she felt so sick: She had Ebola.\" Looks like hospitals in Spain are dropping the ball just as much as the guys in Dallas did, if not <i>worse</i>.<br>\"A hospital spokeswoman said there were now 14 people in the isolation unit on its sealed-off sixth floor, including Romero, her husband, and health workers who had cared for Romero since she was admitted on Monday.\"<br>Presence of Ebola virus in Teresa Romero Ramos’s blood appears to be diminishing, says Spanish health ministry"
     },
 
     {
@@ -257,7 +282,7 @@
 
     {
         "location" : "Civitanova Marche, Italy",
-        
+
         "patients" : [ { "status" : "negative" } ],
         "links" : [
             "http://indianexpress.com/article/world/world-others/suspected-first-case-of-ebola-in-italy/",
@@ -318,7 +343,7 @@
     {
         "location" : "DR Congo",
         "patients_nostats" : [ { "status" : "deceased" , "count" : 40 },
-                       { "status" : "positive" , "count" : 31 } ],
+                               { "status" : "positive" , "count" : 31 } ],
         "links" : [
             "http://www.itv.com/news/update/2014-08-27/death-toll-in-congo-ebola-outbreak-reaches-13/",
             "http://www.france24.com/en/20140824-dr-congo-confirms-first-cases-ebola/",
@@ -352,7 +377,7 @@
 
     {
         "location" : "Delhi, India",
-        
+
         "patients" : [ { "status" : "presumed-negative" } ],
         "links" : [
             "http://timesofindia.indiatimes.com/city/delhi/Ebola-scare-116-people-arrive-from-worst-affected-Liberia-in-Delhi-and-Mumbai/articleshow/40960259.cms"
