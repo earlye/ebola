@@ -1,6 +1,13 @@
 [
 
     {
+        "location" : "Dallas, TX",
+        "patients" : [ { "status" : "positive" } ],
+        "links" : [ "http://rare.us/story/second-health-care-worker-in-texas-tests-positive-for-ebola/" ],
+        "date" : "2014-10-15"
+    },
+
+    {
         "location" : "Mobile, AL",
         "patients" : [ { "status" : "ruled-out" } ],
         "links" : [ "http://www.wkrg.com/story/26786894/developing-suspected-ebola-case-in-mobile-alabama" ],
