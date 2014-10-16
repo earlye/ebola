@@ -28,7 +28,8 @@
         "location" : "Dallas, TX",
         "patients" : [ { "status" : "positive" } ],
         "links" : [ "http://rare.us/story/second-health-care-worker-in-texas-tests-positive-for-ebola/" , "http://fxn.ws/1w84vJ6" ],
-        "date" : "2014-10-15"
+        "date" : "2014-10-15",
+        "notes" : "Patient name: Amber Vinson. Transfered to Emory hospital in Atlanta."
     },
 
     {
@@ -50,7 +51,7 @@
 
     {
         "location" : "Boston, MA",
-        "patients" : [ {"status" : "negative"} ],
+        "patients" : [ {"status" : "negative" } ],
         "links" : [ "http://www.bostonherald.com/news_opinion/local_coverage/2014/10/suspected_ebola_case_being_tested_at_beth_israel_hospital" , "http://www.bostonmagazine.com/news/blog/2014/10/16/ebola-scare-mbta-station/" ],
         "date" : "2014-10-12",
         "notes" : "A few days prior, a patient with “Ebola-like symptoms” visited Harvard Vanguard Medical Associates in Braintree, and was transported to a Boston hospital for observation. Officials later determined it was a false alarm, however."
@@ -68,9 +69,10 @@
         "location" : "Dallas, TX",
         "patients" : [ { "status" : "positive" } ],
         "links" : [ "http://www.nbcnews.com/storyline/ebola-virus-outbreak/heroic-health-worker-becomes-second-u-s-ebola-case-n223976",
-                    "http://www.usatoday.com/story/news/nation/2014/10/13/ebola-nurse-who/17182599/" ],
+                    "http://www.usatoday.com/story/news/nation/2014/10/13/ebola-nurse-who/17182599/",
+                    "http://www.cnn.com/2014/10/16/health/us-ebola/index.html" ],
         "date" : "2014-10-12",
-        "notes" : "Duncan has claimed his first victim, Nina Pham. :-(. R0 in Dallas is now 0.5. I had been saying 1, but I think I had that math wrong. R0 is the number infected by each infected person. In this case, there are 2 infected people (Duncan and the health care worker), and only one infected another person, so that's 1/2 = 0.5."
+        "notes" : "Duncan has claimed his first victim, Nina Pham. :-(. R0 in Dallas is now 0.5. I had been saying 1, but I think I had that math wrong. R0 is the number infected by each infected person. In this case, there are 2 infected people (Duncan and the health care worker), and only one infected another person, so that's 1/2 = 0.5. On 10/16 it was announced that Ms Pham would be transferred to \"National Institutes of Health hospital just north of Washington, D.C\""
     },
 
     {
