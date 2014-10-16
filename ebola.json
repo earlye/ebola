@@ -50,7 +50,7 @@
 
     {
         "location" : "Boston, MA",
-        "patients" : [ {"status" : "quarantined"} ],
+        "patients" : [ {"status" : "negative"} ],
         "links" : [ "http://www.bostonherald.com/news_opinion/local_coverage/2014/10/suspected_ebola_case_being_tested_at_beth_israel_hospital" , "http://www.bostonmagazine.com/news/blog/2014/10/16/ebola-scare-mbta-station/" ],
         "date" : "2014-10-12",
         "notes" : "A few days prior, a patient with “Ebola-like symptoms” visited Harvard Vanguard Medical Associates in Braintree, and was transported to a Boston hospital for observation. Officials later determined it was a false alarm, however."
