@@ -1,7 +1,7 @@
 [
 
     {
-        "location" : "Jacksonville, FL"
+        "location" : "Jacksonville, FL",
         "patients" : [ { "status" : "negative" } ],
         "links" : [ "http://jacksonville.com/news/health-and-fitness/2014-10-16/story/second-jacksonville-hospital-deals-ebola-scare-thursday" ],
         "date" : "2014-10-16",
