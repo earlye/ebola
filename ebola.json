@@ -1,6 +1,14 @@
 [
 
     {
+        "location" : "Boston, MA",
+        "patients" : [ { "status" : "negative" } ],
+        "links" : [ "http://www.bostonmagazine.com/news/blog/2014/10/16/ebola-scare-mbta-station/" ],
+        "date" : "2014-10-16",
+        "notes" : "Calls to first responders about possible Ebola cases are “the new anthrax,” according to MBTA Transit Police."
+    }
+
+    {
         "location" : "Jacksonville, FL",
         "patients" : [ { "status" : "negative" } ],
         "links" : [ "http://jacksonville.com/news/health-and-fitness/2014-10-16/story/second-jacksonville-hospital-deals-ebola-scare-thursday" ],
