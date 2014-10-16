@@ -4,7 +4,8 @@
         "location" : "New Haven, CT",
         "patients" : [ { "status" : "quarantined" } ],
         "links" : [ "http://pix11.com/2014/10/16/yale-student-with-ebola-like-symptoms-sent-to-the-hospital-following-trip-to-liberia/" ],
-        "date" : "2014-10-16"
+        "date" : "2014-10-16",
+        "notes" : "Yale student with Ebola-like symptoms sent to the hospital after Liberia trip"
     },
 
     {
