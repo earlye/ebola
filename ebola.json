@@ -1,6 +1,14 @@
 [
 
     {
+        "location" : "Jacksonville, FL"
+        "patients" : [ { "status" : "negative" } ],
+        "links" : [ "http://jacksonville.com/news/health-and-fitness/2014-10-16/story/second-jacksonville-hospital-deals-ebola-scare-thursday" ],
+        "date" : "2014-10-16",
+        "notes" : "Second Jacksonville hospital deals with Ebola scare Thursday morning. \"The patient who came to Memorial Hospital Jacksonville’s emergency room Thursday doesn’t have the hemorrhagic fever that has already killed one American and hospitalized two of his medical staff in texas.\""
+    },
+
+    {
         "location" : "New Haven, CT",
         "patients" : [ { "status" : "negative" } ],
         "links" : [ "http://pix11.com/2014/10/16/yale-student-with-ebola-like-symptoms-sent-to-the-hospital-following-trip-to-liberia/" , "http://www.nbcconnecticut.com/news/local/Yale-New-Haven-Hospital-Admits-Person-with-Ebola-Like-Symptoms--279415262.html" ],
@@ -41,10 +49,10 @@
 
     {
         "location" : "Jacksonville, FL",
-        "patients" : [ { "status" : "quarantined"} ],
+        "patients" : [ { "status" : "negative"} ],
         "notes" : "In Jacksonville, Baptist Medical Center said Monday it had isolated a patient who was being tested for Ebola but added that the diagnosis is \"highly unlikely.\" The hospital released a statement saying the patient had no fever, a common symptom of Ebola, but did report recent casual contact with a traveler from West Africa.",
         "date" : "2014-10-13",
-        "links" : [ "http://www.usatoday.com/story/news/nation/2014/10/13/ebola-nurse-who/17182599/" ]
+        "links" : [ "http://www.usatoday.com/story/news/nation/2014/10/13/ebola-nurse-who/17182599/" , "http://savannahnow.com/news/2014-10-13/jacksonville-hospital-testing-patient-ebola" ]
     },
 
     {
