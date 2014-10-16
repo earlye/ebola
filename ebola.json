@@ -49,6 +49,14 @@
     },
 
     {
+        "location" : "Brooklyn, NY",
+        "patients" : [ { "status" : "negative" } ],
+        "links" : [ "http://www.nydailynews.com/news/national/texas-health-department-statement-health-care-worker-tests-positive-ebola-article-1.1974828?" ],
+        "date" : "2014-10-10",
+        "notes" : "\"A 14-year-old with a fever and flu-like symptoms sets New York City on high alert... the next day he is deemed not to have the virus."
+    },
+
+    {
         "location" : "Las Vegas, NV",
         "patients" : [ { "status" : "negative" } ],
         "links" : [ "http://www.chicagotribune.com/lifestyles/health/chi-ebola-cases-20141010-story.html" ],
