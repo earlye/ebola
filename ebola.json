@@ -1,6 +1,13 @@
 [
 
     {
+        "location" : "New Haven, CT",
+        "patients" : [ { "status" : "quarantined" } ],
+        "links" : [ "http://pix11.com/2014/10/16/yale-student-with-ebola-like-symptoms-sent-to-the-hospital-following-trip-to-liberia/" ]
+        "date" : "2014-10-16"
+    },
+
+    {
         "location" : "Dallas, TX",
         "patients" : [ { "status" : "positive" } ],
         "links" : [ "http://rare.us/story/second-health-care-worker-in-texas-tests-positive-for-ebola/" , "http://fxn.ws/1w84vJ6" ],
