@@ -115,8 +115,8 @@
 
     {
         "location" : "Harare, Zimbabwe",
-        "patients" : [ { "status" : "quarantined" } ],
-        "links" : [ "http://www.news24.com/Africa/Zimbabwe/Zimbabwe-hospital-closed-to-monitor-suspected-Ebola-case-20141009-6"],
+        "patients" : [ { "status" : "negative" } ],
+        "links" : [ "http://www.news24.com/Africa/Zimbabwe/Zimbabwe-hospital-closed-to-monitor-suspected-Ebola-case-20141009-6", "http://www.news24.com/Africa/Zimbabwe/Zimbabwe-patient-tests-negative-for-Ebola-20141015-7"],
         "date" : "2014-10-10"
     },
 
