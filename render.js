@@ -169,7 +169,7 @@ function createCORSRequest(method, url) {
     return xhr;
 }
 
-var xhr = createCORSRequest('GET', "ebola.json");
+var xhr = createCORSRequest('GET', "http://ebola.thenewentity.com/ebola.json");
 
 xhr.onreadystatechange = function()
 {
