@@ -1,6 +1,20 @@
 [
 
     {
+        "location" : "Madrid, Spain",
+        "patients" : [ { "status" : "quarantined" , "count" : 3 } ],
+        "date" : "2014-10-16",
+        "links" : [ "http://news.yahoo.com/madrid-airport-activates-protocol-over-suspected-ebola-case-120703763--finance.html" ]
+    },
+
+    {
+        "location" : "Canary Islands, Spain",
+        "patients" : [ { "status" : "quarantined" , "count" : 3 } ],
+        "date" : "2014-10-16",
+        "links" : [ "http://news.yahoo.com/madrid-airport-activates-protocol-over-suspected-ebola-case-120703763--finance.html" ]
+    },
+
+    {
         "location" : "Boston, MA",
         "patients" : [ { "status" : "negative" } ],
         "links" : [ "http://www.bostonmagazine.com/news/blog/2014/10/16/ebola-scare-mbta-station/" ],
@@ -166,7 +180,7 @@
         [
             { "status" : "negative" , "count" : 2 },
             { "status" : "positive" , "count" : 1 },
-            { "status" : "quarantined" , "count" : 13 }
+            { "status" : "quarantined" , "count" : 15 }
         ],
         "links" : [
             "http://news.yahoo.com/first-outside-africa-nurse-spain-hospital-contracts-ebola-174043185.html",
@@ -176,10 +190,11 @@
             "http://www.dailymail.co.uk/news/article-2784626/I-followed-protocols-got-Ebola-Spanish-nurse-police-guard-contracted-killer-disease-says-no-idea-got-it.html",
             "http://www.cnn.com/2014/10/08/world/europe/ebola-spain/index.html",
             "http://www.zerohedge.com/news/2014-10-10/ebola-pandemic-update-probable-cases-brazil-and-paris-7-more-isolated-spain-who-warn",
-            "http://www.theguardian.com/world/2014/oct/12/spanish-ebola-nurse-shows-signs-improvement"
+            "http://www.theguardian.com/world/2014/oct/12/spanish-ebola-nurse-shows-signs-improvement",
+            "http://news.yahoo.com/doctors-treating-spanish-ebola-nurse-hopeful-104819739.html"
         ],
         "date" : "2014-10-06",
-        "notes" : "Nurse caught it from Manuel Garcia Viejo, who had been transferred to Madrid for better treatment, but who died 2014-09-26, highlighting, IMHO, the need for healthcare workers to exercise extreme caution when working with Ebola victims. Spanish health officials announced they've euthanized her dog.<br>\"Teresa Romero Ramos sought out help three times. Finally, one week after first seeing a doctor, Romero found out why she felt so sick: She had Ebola.\" Looks like hospitals in Spain are dropping the ball just as much as the guys in Dallas did, if not <i>worse</i>.<br>\"A hospital spokeswoman said there were now 14 people in the isolation unit on its sealed-off sixth floor, including Romero, her husband, and health workers who had cared for Romero since she was admitted on Monday.\"<br>Presence of Ebola virus in Teresa Romero Ramos’s blood appears to be diminishing, says Spanish health ministry"
+        "notes" : "Nurse caught it from Manuel Garcia Viejo, who had been transferred to Madrid for better treatment, but who died 2014-09-26, highlighting, IMHO, the need for healthcare workers to exercise extreme caution when working with Ebola victims. Spanish health officials announced they've euthanized her dog.<br>\"Teresa Romero Ramos sought out help three times. Finally, one week after first seeing a doctor, Romero found out why she felt so sick: She had Ebola.\" Looks like hospitals in Spain are dropping the ball just as much as the guys in Dallas did, if not <i>worse</i>.<br>\"A hospital spokeswoman said there were now 14 people in the isolation unit on its sealed-off sixth floor, including Romero, her husband, and health workers who had cared for Romero since she was admitted on Monday.\"<br>Presence of Ebola virus in Teresa Romero Ramos’s blood appears to be diminishing, says Spanish health ministry<br>Andreu said the 15 people who came into contact with Romero and who are being monitored at the hospital have not shown any Ebola symptoms, and he gave Oct. 27 as the date for a possible all-clear for them."
     },
 
     {
