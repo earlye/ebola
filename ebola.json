@@ -1,6 +1,14 @@
 [
 
     {
+        "location" : "The Pentagon, Arlington, VA",
+        "patients" : [ { "status" : "quarantined" } ],
+        "links" : [ "http://www.wjla.com/articles/2014/10/breaking-news-ebola-scare-closses-pentagon-entrance-restricts-parking-108188.html" ],
+        "date" : "2014-10-17",
+        "notes" : "The actions were triggered shortly after 9 a.m. when police found a woman in the parking lot ill and vomiting; she told officers she had recently visited West Africa."
+    },
+
+    {
         "location" : "Akron, OH",
         "patients" : [ { "status" : "quarantined" , "count" : 8 } ],
         "links" : [ "http://cleveland.cbslocal.com/2014/10/17/8-people-in-ohio-under-quarantine-as-officials-looking-for-shoppers-at-bridal-store-nurse-with-ebola-visited/" ],
