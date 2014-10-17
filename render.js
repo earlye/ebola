@@ -12,7 +12,12 @@ function isNegative( status )
 
 function isPositive( status )
 {
-    return ( status === "positive" );
+    return ( status === "positive" ) || (status === "deceased");
+}
+
+function isDeceased( status )
+{
+    return ( status === "deceased" || status === "deceased-negative" || status === "deceased-suspected" );
 }
 
 function render_entry( entry , stats )
@@ -25,13 +30,7 @@ function render_entry( entry , stats )
             if ( patient.count == undefined )
                 patient.count = 1;
 
-            if ( patient.status === "deceased" )
-            {
-                color = "red";
-                stats.deceased += patient.count;
-                stats.positive += patient.count;
-            }
-            else if ( patient.status === "deceased-suspected" )
+            if ( patient.status === "deceased-suspected" )
             {
                 color = "orange";
             }
@@ -39,6 +38,8 @@ function render_entry( entry , stats )
             {
                 color = "red";
                 stats.positive += patient.count;
+                if ( isDeceased( patient.status ) )
+                    stats.deceased += patient.count;
             }
             else if ( isNegative( patient.status ) )
             {
@@ -50,6 +51,7 @@ function render_entry( entry , stats )
                 color = "white";
                 stats.quarantined += patient.count;
             }
+
 
             count += patient.count;
             stats.total += patient.count;
@@ -137,6 +139,12 @@ function render( list )
 
     result += "</tbody>";
 
+    var maxDate = (new Date(list[0].date)).getTime();
+    var minDate = (new Date(list[list.length-1].date)).getTime();
+    var dateDiff = maxDate - minDate;
+    dateDiff = dateDiff / ( 1000 * 3600 * 24 );
+    console.log( "dateDiff: " + dateDiff );
+
     var statsHtml = "<tbody>";
     statsHtml += "<tr><td>Total Patients:</td><td style='color:orange'>" + stats.total + "</td></tr>";
     statsHtml += "<tr><td>Deceased:</td><td style='color:orange'>" + stats.deceased + "</td></tr>";
@@ -146,7 +154,9 @@ function render( list )
     statsHtml += "<tr><td>False Alarm Rate:</td><td>" + stats.negative + ":" + stats.total + " (" + (100*stats.negative / stats.total).toPrecision(3) + "%)</td></tr>";
     statsHtml += "<tr><td>Mortality Rate:</td><td>" + stats.deceased + ":" + stats.positive + " (" + (100*stats.deceased / stats.positive).toPrecision(3) + "%)</td></tr>";
     statsHtml += "<tr><td>Average Interval Between incidents:</td><td>" + (stats.total_intervals / ( stats.total * 1000 * 3600 * 24)).toPrecision(2) + " days</td></tr>"; // 1000 ms, 3600 sec/hr, 24 hr/day
+    statsHtml += "<tr><td>Average incidents per day:</td><td>" + (stats.total /  dateDiff ).toPrecision(2) + " incidents/day</td></tr>"; // 1000 ms/s, 3600 sec/hr, 24 hr/day
     statsHtml +=  "</tbody>";
+
 
 
     var ebolaList = document.getElementById("ebola-list");
@@ -166,7 +176,6 @@ function renderGraph(list) {
     var minDate = (new Date(list[list.length-1].date)).getTime();
     var dateDiff = maxDate - minDate;
     var maxX = context.canvas.width;
-    console.log( maxX + " maxDate:" + maxDate + " minDate:" + minDate );
 
     context.beginPath();
     context.lineWidth = 5;
@@ -183,7 +192,6 @@ function renderGraph(list) {
         entry.patients.forEach(function(entry) {
             y -= entry.count;
         });
-        console.log( x , y );
         context.lineTo(x,y);
     });
     context.stroke();
@@ -203,7 +211,6 @@ function renderGraph(list) {
             if ( isNegative( entry.status ) )
                 y -= entry.count;
         });
-        console.log( x , y );
         context.lineTo(x,y);
     });
     context.stroke();
@@ -225,7 +232,6 @@ function renderGraph(list) {
         if ( y == context.canvas.height ) {
             context.moveTo( x, context.canvas.height );
         } else {            
-            console.log( x , y );
             context.lineTo(x,y);
         }
     });
@@ -248,7 +254,6 @@ function renderGraph(list) {
         if ( y == context.canvas.height ) {
             context.moveTo( x, context.canvas.height );
         } else {            
-            console.log( x , y );
             context.lineTo(x,y);
         }
     });
