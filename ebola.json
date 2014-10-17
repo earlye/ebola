@@ -1,6 +1,14 @@
 [
 
     {
+        "location" : "Dallas, TX",
+        "patients" : [ { "status" : "quarantined" } ],
+        "links" : [ "http://dfw.cbslocal.com/2014/10/17/new-patient-screened-positive-for-ebola-at-baylor-hospital-testing-not-confirmed/#.VEFg4a0fT_A.twitter" ],
+        "date" : "2014-10-17",
+        "notes" : "On Friday morning Baylor Hospital in Dallas confirmed a patient with ‘ebola similar symptoms’ also triggered a positive on a verbal screening questionnaire. ... a positive blood test has not been confirmed"
+    },
+
+    {
         "location" : "Fort Worth, TX",
         "patients" : [ { "status" : "quarantined" } ],
         "links" : [ "http://www.militarytimes.com/article/20141016/NEWS/310160054/Marine-under-voluntary-Ebola-quarantine" ],
