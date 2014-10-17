@@ -4,6 +4,17 @@ function default_string( value , def )
         return def;
     return value;
 }
+
+function isNegative( status )
+{
+    return ( status === "negative" || status === "cleared" || status === "ruled-out" || status === "presumed-negative" || status === "deceased-negative" );
+}
+
+function isPositive( status )
+{
+    return ( status === "positive" );
+}
+
 function render_entry( entry , stats )
 {
     var status = "";
@@ -24,12 +35,12 @@ function render_entry( entry , stats )
             {
                 color = "orange";
             }
-            else if ( patient.status === "positive" )
+            else if ( isPositive( patient.status ) )
             {
                 color = "red";
                 stats.positive += patient.count;
             }
-            else if ( patient.status === "negative" || patient.status === "cleared" || patient.status === "ruled-out" || patient.status === "presumed-negative" || patient.status === "deceased-negative" )
+            else if ( isNegative( patient.status ) )
             {
                 color = "green";
                 stats.negative += patient.count;
@@ -66,7 +77,7 @@ function render_entry( entry , stats )
             {
                 color = "red";
             }
-            else if ( patient.status === "negative" || patient.status === "cleared" || patient.status === "ruled-out" || patient.status === "presumed-negative" || patient.status === "deceased-negative" )
+            else if ( isNegative( patient.status ) )
             {
                 color = "green";
             }
@@ -145,6 +156,107 @@ function render( list )
     statistics.innerHTML = statsHtml;
 }
 
+function renderGraph(list) {
+    var canvas = document.getElementById('ebola-chart');
+    if (canvas === undefined || canvas === null)
+        return;
+    var context = canvas.getContext('2d');
+
+    var maxDate = (new Date(list[0].date)).getTime();
+    var minDate = (new Date(list[list.length-1].date)).getTime();
+    var dateDiff = maxDate - minDate;
+    var maxX = context.canvas.width;
+    console.log( maxX + " maxDate:" + maxDate + " minDate:" + minDate );
+
+    context.beginPath();
+    context.lineWidth = 5;
+    context.strokeStyle="orange";
+    context.moveTo( 0, context.canvas.height );
+    var y = context.canvas.height;
+
+    list.reverse().forEach(function(entry) {
+        var date = (new Date(entry.date)).getTime() - minDate;
+        var x = Math.floor( ( date / dateDiff ) * maxX );
+        if ( entry.patients === undefined )
+            return;
+
+        entry.patients.forEach(function(entry) {
+            y -= entry.count;
+        });
+        console.log( x , y );
+        context.lineTo(x,y);
+    });
+    context.stroke();
+
+    context.beginPath();
+    context.strokeStyle="green";
+    context.moveTo( 0, context.canvas.height );
+    var y = context.canvas.height;
+
+    list.forEach(function(entry) {
+        var date = (new Date(entry.date)).getTime() - minDate;
+        var x = Math.floor( ( date / dateDiff ) * maxX );
+        if ( entry.patients === undefined )
+            return;
+
+        entry.patients.forEach(function(entry) {
+            if ( isNegative( entry.status ) )
+                y -= entry.count;
+        });
+        console.log( x , y );
+        context.lineTo(x,y);
+    });
+    context.stroke();
+
+    context.beginPath();
+    context.strokeStyle="white";
+    var y = context.canvas.height;
+
+    list.forEach(function(entry) {
+        var date = (new Date(entry.date)).getTime() - minDate;
+        var x = Math.floor( ( date / dateDiff ) * maxX );
+        if ( entry.patients === undefined )
+            return;
+
+        entry.patients.forEach(function(entry) {
+            if ( entry.status === "quarantined" )
+                y -= entry.count;
+        });
+        if ( y == context.canvas.height ) {
+            context.moveTo( x, context.canvas.height );
+        } else {            
+            console.log( x , y );
+            context.lineTo(x,y);
+        }
+    });
+    context.stroke();
+
+    context.beginPath();
+    context.strokeStyle="red";
+    var y = context.canvas.height;
+
+    list.forEach(function(entry) {
+        var date = (new Date(entry.date)).getTime() - minDate;
+        var x = Math.floor( ( date / dateDiff ) * maxX );
+        if ( entry.patients === undefined )
+            return;
+
+        entry.patients.forEach(function(entry) {
+            if ( isPositive( entry.status ) )
+                y -= entry.count;
+        });
+        if ( y == context.canvas.height ) {
+            context.moveTo( x, context.canvas.height );
+        } else {            
+            console.log( x , y );
+            context.lineTo(x,y);
+        }
+    });
+    context.stroke();
+
+
+}
+
 function createCORSRequest(method, url) {
     var xhr = new XMLHttpRequest();
     if ("withCredentials" in xhr) {
@@ -187,6 +299,7 @@ xhr.onreadystatechange = function()
                       return 0;
                   });
         render(list);
+        renderGraph(list);
     }
 };
 xhr.send(null);
