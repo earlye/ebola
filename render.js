@@ -197,6 +197,7 @@ function renderGraph(list) {
     context.stroke();
 
     context.beginPath();
+    context.lineWidth = 2;
     context.strokeStyle="green";
     context.moveTo( 0, context.canvas.height );
     var y = context.canvas.height;

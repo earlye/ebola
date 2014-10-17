@@ -1,6 +1,14 @@
 [
 
     {
+        "location" : "Akron, OH",
+        "patients" : [ { "status" : "quarantined" , "count" : 8 } ],
+        "links" : [ "http://cleveland.cbslocal.com/2014/10/17/8-people-in-ohio-under-quarantine-as-officials-looking-for-shoppers-at-bridal-store-nurse-with-ebola-visited/" ],
+        "date" : "2014-10-17",
+        "notes" : "Meanwhile, Summit County officials are looking for shoppers who were at an Akron bridal store she visited."
+    },
+
+    {
         "location" : "New York, NY",
         "patients" : [ { "status" : "deceased-negative" } ],
         "date" : "2014-10-16",
