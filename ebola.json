@@ -1,11 +1,20 @@
 [
 
     {
+        "location" : "Chula Vista, CA",
+        "patients" : [ { "status" : "negative" } ],
+        "links" : [ "http://benswann.com/ebola-southern-california-college-temporarily-quarantined-due-to-scare/" ],
+        "date" : "2014-10-16",
+        "notes" : "The student reportedly made the story up to prevent being dropped from a class due to an absence."
+    },
+
+    {
         "location" : "Dallas, TX",
-        "patients" : [ { "status" : "quarantined" } ],
-        "links" : [ "http://dfw.cbslocal.com/2014/10/17/new-patient-screened-positive-for-ebola-at-baylor-hospital-testing-not-confirmed/#.VEFg4a0fT_A.twitter" ],
+        "patients" : [ { "status" : "released-suspected" } ],
+        "links" : [ "http://dfw.cbslocal.com/2014/10/17/new-patient-screened-positive-for-ebola-at-baylor-hospital-testing-not-confirmed/#.VEFg4a0fT_A.twitter",
+                    "http://www.breitbart.com/Breitbart-Texas/2014/10/17/Ebola-Screened-Positive-Patient-Leaves-Texas-Hospital-After-Mere-Hours-of-Isolation"],
         "date" : "2014-10-17",
-        "notes" : "On Friday morning Baylor Hospital in Dallas confirmed a patient with ‘ebola similar symptoms’ also triggered a positive on a verbal screening questionnaire. ... a positive blood test has not been confirmed"
+        "notes" : "On Friday morning Baylor Hospital in Dallas confirmed a patient with ‘ebola similar symptoms’ also triggered a positive on a verbal screening questionnaire. ... a positive blood test has not been confirmed.<br/>However, within hours, \"The patient was determined to be low risk and wanted to leave the hospital. The CDC and Texas Department of State Health Services were advised of this and did not feel it was necessary to have her detained.\""
     },
 
     {
@@ -36,22 +45,24 @@
         "location" : "New York, NY",
         "patients" : [ { "status" : "deceased-negative" } ],
         "date" : "2014-10-16",
-        "links" : [ "http://nypost.com/2014/10/16/alarm-after-vomiting-passenger-dies-on-flight-from-nigeria-to-jfk/" ],
+        "links" : [ "http://nypost.com/2014/10/16/alarm-after-vomiting-passenger-dies-on-flight-from-nigeria-to-jfk/" , "http://www.dailymail.co.uk/news/article-2796641/fresh-fears-passenger-flying-nigeria-jfk-dies-seat-vomiting-profusely-body-declared-ebola-free-just-cursory-exam-cdc.html" ],
         "notes" : "\"A plane from Nigeria landed at JFK Airport Thursday with a male passenger aboard who had died during the flight after a fit of vomiting — and CDC officials conducted a “cursory” exam before announcing there was no Ebola and turning the corpse over to Port Authority cops to remove, Rep. Peter King said on Thursday.\" Personally, I do not believe their assessment. I list it according to what the official story is, but I believe it ought to be counted as deceased/suspected."
     },
 
     {
         "location" : "Madrid, Spain",
-        "patients" : [ { "status" : "quarantined" , "count" : 3 } ],
+        "patients" : [ { "status" : "negative" , "count" : 4 } ],
         "date" : "2014-10-16",
-        "links" : [ "http://news.yahoo.com/madrid-airport-activates-protocol-over-suspected-ebola-case-120703763--finance.html" ]
+        "links" : [ "http://news.yahoo.com/madrid-airport-activates-protocol-over-suspected-ebola-case-120703763--finance.html", 
+                    "http://www.theguardian.com/world/2014/oct/17/two-suspected-ebola-cases-spain-test-negative-disease" ]
     },
 
     {
         "location" : "Canary Islands, Spain",
         "patients" : [ { "status" : "quarantined" , "count" : 3 } ],
         "date" : "2014-10-16",
-        "links" : [ "http://news.yahoo.com/madrid-airport-activates-protocol-over-suspected-ebola-case-120703763--finance.html" ]
+        "links" : [ "http://news.yahoo.com/madrid-airport-activates-protocol-over-suspected-ebola-case-120703763--finance.html", 
+                    "http://www.theguardian.com/world/2014/oct/17/two-suspected-ebola-cases-spain-test-negative-disease" ]
     },
 
     {
@@ -81,9 +92,9 @@
     {
         "location" : "Dallas, TX",
         "patients" : [ { "status" : "positive" } ],
-        "links" : [ "http://rare.us/story/second-health-care-worker-in-texas-tests-positive-for-ebola/" , "http://fxn.ws/1w84vJ6" ],
+        "links" : [ "http://rare.us/story/second-health-care-worker-in-texas-tests-positive-for-ebola/" , "http://fxn.ws/1w84vJ6" , "http://www.cleveland.com/akron/index.ssf/2014/10/ebola_patient_amber_joy_vinson.html#incart_maj-story-1" ],
         "date" : "2014-10-15",
-        "notes" : "Patient name: Amber Vinson. Transfered to Emory hospital in Atlanta."
+        "notes" : "Patient name: Amber Vinson. Transfered to Emory hospital in Atlanta. May have been symptomatic as early as 10/11, when she flew from Dallas to Cleveland to spend time planning her wedding. Transferred to Emory University Hospital 10/15."
     },
 
     {
@@ -124,9 +135,10 @@
         "patients" : [ { "status" : "positive" } ],
         "links" : [ "http://www.nbcnews.com/storyline/ebola-virus-outbreak/heroic-health-worker-becomes-second-u-s-ebola-case-n223976",
                     "http://www.usatoday.com/story/news/nation/2014/10/13/ebola-nurse-who/17182599/",
-                    "http://www.cnn.com/2014/10/16/health/us-ebola/index.html" ],
+                    "http://www.cnn.com/2014/10/16/health/us-ebola/index.html",
+                    "http://www.dailymail.co.uk/news/article-2797358/ebola-nurse-nina-pham-s-condition-downgraded-good-fair-transfer-specialized-quarantine-unit-chief-doctor-calls-trooper.html" ],
         "date" : "2014-10-12",
-        "notes" : "Duncan has claimed his first victim, Nina Pham. :-(. R0 in Dallas is now 0.5. I had been saying 1, but I think I had that math wrong. R0 is the number infected by each infected person. In this case, there are 2 infected people (Duncan and the health care worker), and only one infected another person, so that's 1/2 = 0.5. On 10/16 it was announced that Ms Pham would be transferred to \"National Institutes of Health hospital just north of Washington, D.C\""
+        "notes" : "Duncan has claimed his first victim, Nina Pham. :-(. R0 in Dallas is now 0.5. I had been saying 1, but I think I had that math wrong. R0 is the number infected by each infected person. In this case, there are 2 infected people (Duncan and the health care worker), and only one infected another person, so that's 1/2 = 0.5. On 10/16 it was announced that Ms Pham would be transferred to \"National Institutes of Health hospital just north of Washington, D.C\". On 10/18, after she was transferred to NIH, condition downgraded from \"Good\" to \"Fair\"."
     },
 
     {
@@ -231,7 +243,8 @@
             "http://www.cnn.com/2014/10/08/world/europe/ebola-spain/index.html",
             "http://www.zerohedge.com/news/2014-10-10/ebola-pandemic-update-probable-cases-brazil-and-paris-7-more-isolated-spain-who-warn",
             "http://www.theguardian.com/world/2014/oct/12/spanish-ebola-nurse-shows-signs-improvement",
-            "http://news.yahoo.com/doctors-treating-spanish-ebola-nurse-hopeful-104819739.html"
+            "http://news.yahoo.com/doctors-treating-spanish-ebola-nurse-hopeful-104819739.html",
+            "http://www.theguardian.com/world/2014/oct/17/two-suspected-ebola-cases-spain-test-negative-disease"
         ],
         "date" : "2014-10-06",
         "notes" : "Nurse caught it from Manuel Garcia Viejo, who had been transferred to Madrid for better treatment, but who died 2014-09-26, highlighting, IMHO, the need for healthcare workers to exercise extreme caution when working with Ebola victims. Spanish health officials announced they've euthanized her dog.<br>\"Teresa Romero Ramos sought out help three times. Finally, one week after first seeing a doctor, Romero found out why she felt so sick: She had Ebola.\" Looks like hospitals in Spain are dropping the ball just as much as the guys in Dallas did, if not <i>worse</i>.<br>\"A hospital spokeswoman said there were now 14 people in the isolation unit on its sealed-off sixth floor, including Romero, her husband, and health workers who had cared for Romero since she was admitted on Monday.\"<br>Presence of Ebola virus in Teresa Romero Ramos’s blood appears to be diminishing, says Spanish health ministry<br>Andreu said the 15 people who came into contact with Romero and who are being monitored at the hospital have not shown any Ebola symptoms, and he gave Oct. 27 as the date for a possible all-clear for them."

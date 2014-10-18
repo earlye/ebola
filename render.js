@@ -5,6 +5,11 @@ function default_string( value , def )
     return value;
 }
 
+function isSuspected( status ) 
+{
+    return ( status === "quarantined" || status == "released-suspected" ); 
+}
+
 function isNegative( status )
 {
     return ( status === "negative" || status === "cleared" || status === "ruled-out" || status === "presumed-negative" || status === "deceased-negative" );
@@ -46,10 +51,10 @@ function render_entry( entry , stats )
                 color = "green";
                 stats.negative += patient.count;
             }
-            else if ( patient.status === "quarantined" )
+            else if ( isSuspected( patient.status ) )
             {
                 color = "white";
-                stats.quarantined += patient.count;
+                stats.suspected += patient.count;
             }
 
 
@@ -83,7 +88,7 @@ function render_entry( entry , stats )
             {
                 color = "green";
             }
-            else if ( patient.status === "quarantined" )
+            else if ( isSuspected( patient.status ) )
             {
                 color = "white";
             }
@@ -129,7 +134,7 @@ function render( list )
     result += "<th>Comments</th>";
     result += "</tr>";
 
-    var stats = { "total" : 0 , "deceased" : 0 , "positive" : 0, "quarantined" : 0 , "negative" : 0 , "total_intervals" : 0 , "previousDate" : 0 };
+    var stats = { "total" : 0 , "deceased" : 0 , "positive" : 0, "suspected" : 0 , "negative" : 0 , "total_intervals" : 0 , "previousDate" : 0 };
     var incidents = 0;
 
 
@@ -150,7 +155,7 @@ function render( list )
     statsHtml += "<tr><td>Deceased:</td><td style='color:orange'>" + stats.deceased + "</td></tr>";
     statsHtml += "<tr><td>Positive:</td><td style='color:red'>" + stats.positive + "</td></tr>";
     statsHtml += "<tr><td>Negative:</td><td style='color:green'>" + stats.negative + "</td></tr>";
-    statsHtml += "<tr><td>Quarantined:</td><td style='color:white'>" + stats.quarantined + "</td></tr>";
+    statsHtml += "<tr><td>Suspected:</td><td style='color:white'>" + stats.suspected + "</td></tr>";
     statsHtml += "<tr><td>False Alarm Rate:</td><td>" + stats.negative + ":" + stats.total + " (" + (100*stats.negative / stats.total).toPrecision(3) + "%)</td></tr>";
     statsHtml += "<tr><td>Mortality Rate:</td><td>" + stats.deceased + ":" + stats.positive + " (" + (100*stats.deceased / stats.positive).toPrecision(3) + "%)</td></tr>";
     statsHtml += "<tr><td>Average Interval Between incidents:</td><td>" + (stats.total_intervals / ( stats.total * 1000 * 3600 * 24)).toPrecision(2) + " days</td></tr>"; // 1000 ms, 3600 sec/hr, 24 hr/day
@@ -227,7 +232,7 @@ function renderGraph(list) {
             return;
 
         entry.patients.forEach(function(entry) {
-            if ( entry.status === "quarantined" )
+            if ( isSuspected( entry.status ) )
                 y -= entry.count;
         });
         if ( y == context.canvas.height ) {
